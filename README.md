@@ -56,5 +56,5 @@ yarn start
 
 ## API Usage
 
-This application fetches weather data from the [Open Weather API](https://openweathermap.org). You will need to sign up for an API key and replace `open_weather_api_key` in the [WeatherApp.jsx](/src/Componenets/WeatherApp/WeatherApp.jsx) file with your actual API key. 
+This application fetches weather data from the [Open Weather API](https://openweathermap.org). You will need to sign up for an API key and replace `open_weather_api_key` in the [WeatherApp.jsx](/src/Componenets/WeatherApp/WeatherApp.jsx#L15) file with your actual API key. 
 > Please navigate to line 15 in the file.
