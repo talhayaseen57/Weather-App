@@ -2,7 +2,7 @@
 
 This is a simple weather application built with React that allows users to check the current weather conditions of any city. The application displays information such as temperature, humidity, and wind speed.
 
-![Weather Application Demo](src\Componenets\Assets\demo.gif)
+![Weather Application Demo](/src/Componenets/Assets/demo.gif)
 
 
 ## Features
@@ -56,5 +56,5 @@ yarn start
 
 ## API Usage
 
-This application fetches weather data from the [Open Weather API](https://openweathermap.org). You will need to sign up for an API key and replace `open_weather_api_key` in the [WeatherApp.jsx](src\Componenets\WeatherApp\WeatherApp.jsx) file with your actual API key. 
+This application fetches weather data from the [Open Weather API](https://openweathermap.org). You will need to sign up for an API key and replace `open_weather_api_key` in the [WeatherApp.jsx](/src/Componenets/WeatherApp/WeatherApp.jsx) file with your actual API key. 
 > Please navigate to line 15 in the file.
