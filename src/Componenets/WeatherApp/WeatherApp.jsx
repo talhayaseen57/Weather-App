@@ -33,11 +33,14 @@ export const WeatherApp = () => {
         const location_element = document.getElementsByClassName("weather-location");
         const humidity_percentage_element = document.getElementsByClassName("humidity-percentage");
         const wind_speed_element = document.getElementsByClassName("wind-speed");
+        
+        let current_temperature = Math.round(json_data.main.temp);
+        let wind_speed = Math.round(json_data.wind.speed);
 
-        current_temperature_element[0].innerHTML = json_data.main.temp + "°C";
+        current_temperature_element[0].innerHTML = current_temperature + "°C";
         location_element[0].innerHTML = json_data.name;
         humidity_percentage_element[0].innerHTML = json_data.main.humidity + "%";
-        wind_speed_element[0].innerHTML = json_data.wind.speed + " km/h";
+        wind_speed_element[0].innerHTML = wind_speed + " km/h";
 
         let weather_icon_code = json_data.weather[0].icon;
         console.log(weather_icon_code);
