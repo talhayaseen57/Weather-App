@@ -43,8 +43,6 @@ export const WeatherApp = () => {
         wind_speed_element[0].innerHTML = wind_speed + " km/h";
 
         let weather_icon_code = json_data.weather[0].icon;
-        console.log(weather_icon_code);
-        console.log(typeof(weather_icon_code));
 
         if (weather_icon_code === "01d" || weather_icon_code === "01n") {
             setWeatherIcon(clear_icon);
@@ -56,7 +54,6 @@ export const WeatherApp = () => {
             setWeatherIcon(drizzle_icon);
         }
         else if (weather_icon_code === "04d" || weather_icon_code === "04n") {
-            console.log("Function came here!");
             setWeatherIcon(drizzle_icon);
         }
         else if (weather_icon_code === "09d" || weather_icon_code === "09n") {
