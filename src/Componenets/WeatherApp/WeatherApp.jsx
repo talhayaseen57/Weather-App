@@ -12,6 +12,13 @@ import wind_icon from '../Assets/wind.png'
 
 export const WeatherApp = () => {
   return (
-    <div>WeatherApp</div>
+    <div className='container'>
+        <div className='top-bar'>
+            <input type="text" className='cityInput' placeholder='Search a city'/>
+            <div className='search-icon'>
+                <img src={search_icon} alt="Search Icon" />
+            </div>
+        </div>
+    </div>
   )
 }
