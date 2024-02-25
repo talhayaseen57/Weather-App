@@ -12,7 +12,7 @@ import wind_icon from '../Assets/wind.png'
 
 export const WeatherApp = () => {
 
-    let api_key = "bb153afb243bf1617b48b328cf3931e5";
+    let open_weather_api_key = "bb153afb243bf1617b48b328cf3931e5";
 
     const [weatherIcon, setWeatherIcon] = useState(cloud_icon);
 
@@ -24,7 +24,7 @@ export const WeatherApp = () => {
             return 0;
         }
 
-        let url = `https://api.openweathermap.org/data/2.5/weather?q=${city_name}&&units=Metric&appid=${api_key}`;
+        let url = `https://api.openweathermap.org/data/2.5/weather?q=${city_name}&&units=Metric&appid=${open_weather_api_key}`;
 
         let response = await fetch(url);
         let json_data = await response.json();
