@@ -44,8 +44,12 @@ npm start
 ## Technologies Used
 
 - React
-- Open Weather API
+- Open Weather Map API
 
 ## API Usage
 
 This application fetches weather data from the [Open Weather API](https://openweathermap.org). You will need to sign up for an API key and replace `open_weather_api_key` in the [WeatherApp.jsx](/src/Components/WeatherApp/WeatherApp.jsx#L15) file with your actual API key.
+
+## Demo
+
+You can check out the live demo of this project [here](https://react-openmapweather-app.netlify.app).
